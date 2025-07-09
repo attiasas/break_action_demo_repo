@@ -2,7 +2,13 @@ package actions
 
 import (
 	"fmt"
+	
+	"rsc.io/quote"
 )
+
+func Quote() {
+	fmt.Println(quote.Hello())
+}
 
 func DoAction() {
 	fmt.Println("Action function called")
